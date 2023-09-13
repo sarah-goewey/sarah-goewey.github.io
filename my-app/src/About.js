@@ -1,4 +1,5 @@
 import React from "react";
+import sarah_img from "./images/sarah_img.jpg";
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
         <div className="card bg-primary-subtle">
           <div className="row">
             <img
-              src="images/sarah_img.jpg"
+              src={sarah_img}
               className="img-thumbnail col"
               alt="sarah goewey"
               style={{ width: "25%", minWidth: "500px", objectFit: "contain" }}

@@ -1,4 +1,8 @@
 import React from "react";
+import cavesofmercury from "./images/cavesofmercury.png";
+import cookingparty from "./images/cookingparty.png";
+import bcr from "./images/bcr.png";
+import spiffystickies from "./images/spiffystickies.png";
 
 const ProjectsPage = () => {
   return (
@@ -35,7 +39,7 @@ const ProjectsPage = () => {
                   </div>
                 </div>
                 <img
-                  src="./static/images/bcr.png"
+                  src={bcr}
                   className="img-thumbnail d-block w-75 mx-auto"
                   alt="backup cash register"
                 />
@@ -77,7 +81,7 @@ const ProjectsPage = () => {
                   </div>
                 </div>
                 <img
-                  src="./static/images/cavesofmercury.png"
+                  src={cavesofmercury}
                   className="img-thumbnail d-block w-75 mx-auto"
                   alt="caves of mercury app"
                 />
@@ -120,7 +124,7 @@ const ProjectsPage = () => {
                   </div>
                 </div>
                 <img
-                  src="./static/images/cookingparty.png"
+                  src={cookingparty}
                   className="img-thumbnail d-block w-75 mx-auto"
                   alt="cooking party app"
                 />
@@ -164,7 +168,7 @@ const ProjectsPage = () => {
                   </div>
                 </div>
                 <img
-                  src="./static/images/spiffystickies.png"
+                  src={spiffystickies}
                   className="img-thumbnail d-block w-75 mx-auto"
                   alt="spiffy stickies app"
                 />
