@@ -1,5 +1,5 @@
 import React from "react";
-import sarah_img from "./images/sarah_img.jpg";
+import sarah_img from "./images/sarah_img.png";
 
 const About = () => {
   return (
@@ -14,7 +14,12 @@ const About = () => {
               src={sarah_img}
               className="img-thumbnail col"
               alt="sarah goewey"
-              style={{ width: "25%", minWidth: "500px", objectFit: "contain" }}
+              style={{
+                width: "25%",
+                minWidth: "500px",
+                objectFit: "contain",
+                padding: "25px",
+              }}
             />
             <div
               className="col"
