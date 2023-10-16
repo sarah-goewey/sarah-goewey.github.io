@@ -31,8 +31,8 @@ const About = () => {
             >
               <p>
                 Hi, my name is Sarah (they/them). As a Fullstack Academy
-                graduate with almost a decade of book industry experience,
-                including ecommerce fulfillment and receiving, I bring a unique
+                graduate with 5+ years experience as a bookseller, including
+                ecommerce fulfillment and receiving, I bring a unique
                 perspective to web development that prioritizes user experience
                 and streamlined functionality.
               </p>
