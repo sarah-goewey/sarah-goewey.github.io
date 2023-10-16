@@ -11,11 +11,11 @@ const ProjectsPage = () => {
         projects
       </h1>
       <div style={{ paddingTop: "75px" }}>
-        <div className="card bg-primary-subtle">
+        <div className="card bg-primary-subtle" style={{ paddingTop: "15px" }}>
           <div id="carouselExampleIndicators" className="carousel slide">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <h2>Backup Cash Register</h2>
+                <h2 className="text-success">Backup Cash Register</h2>
                 <div className="row">
                   <div className="col">
                     <a href="https://backup-cash-register.onrender.com/#/">
@@ -44,7 +44,10 @@ const ProjectsPage = () => {
                   alt="backup cash register"
                 />
                 <br />
-                <div className="row" style={{ width: "75%", margin: "auto" }}>
+                <div
+                  className="row text-success"
+                  style={{ width: "75%", margin: "auto" }}
+                >
                   This project was inspired by a common frustration from my time
                   in retail: whenever our point-of-sale system (frequently)
                   crashed, we were reduced to using a cumbersome combination of
@@ -57,7 +60,7 @@ const ProjectsPage = () => {
                 <br />
               </div>
               <div className="carousel-item">
-                <h2>Caves of Mercury</h2>
+                <h2 className="text-success">Caves of Mercury</h2>
                 <div className="row">
                   <div className="col">
                     <a href="https://caves-of-mercury.onrender.com/">
@@ -86,7 +89,10 @@ const ProjectsPage = () => {
                   alt="caves of mercury app"
                 />
                 <br />
-                <div className="row" style={{ width: "75%", margin: "auto" }}>
+                <div
+                  className="row text-success"
+                  style={{ width: "75%", margin: "auto" }}
+                >
                   Caves of Mercury is a deliberately super-simplified social
                   platform inspired by my favorite passage from Kurt Vonnegut's
                   Sirens of Titan. In Sirens, the caves of Mercury are inhabited
@@ -100,7 +106,7 @@ const ProjectsPage = () => {
                 <br />
               </div>
               <div className="carousel-item">
-                <h2>Cooking Party</h2>
+                <h2 className="text-success">Cooking Party</h2>
                 <div className="row">
                   <div className="col">
                     <a href="https://cooking-party.onrender.com/">
@@ -129,7 +135,10 @@ const ProjectsPage = () => {
                   alt="cooking party app"
                 />
                 <br />
-                <div className="row" style={{ width: "75%", margin: "auto" }}>
+                <div
+                  className="row text-success"
+                  style={{ width: "75%", margin: "auto" }}
+                >
                   Built in collaboration with Rebecca Cherry, Angel Gao and
                   Nicholas Race as our Fullstack Academy capstone project,
                   Cooking Party is a feature-rich social cooking app. It is a
@@ -144,7 +153,7 @@ const ProjectsPage = () => {
                 <br />
               </div>
               <div className="carousel-item">
-                <h2>Spiffy Stickies</h2>
+                <h2 className="text-success">Spiffy Stickies</h2>
                 <div className="row">
                   <div className="col">
                     <a href="https://spiffy-stickies.onrender.com/#/">
@@ -173,7 +182,10 @@ const ProjectsPage = () => {
                   alt="spiffy stickies app"
                 />
                 <br />
-                <div className="row" style={{ width: "75%", margin: "auto" }}>
+                <div
+                  className="row text-success"
+                  style={{ width: "75%", margin: "auto" }}
+                >
                   Completed during my tenure at Fullstack Academy, Spiffy
                   Stickies is a full-stack CRUD app that is intended for use
                   both in writing personal notes-to-self and in sharing public

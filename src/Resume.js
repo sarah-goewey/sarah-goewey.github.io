@@ -27,7 +27,7 @@ const Resume = () => {
         <div className="card bg-primary-subtle">
           <br />
           <h2 className="card-title text-primary-emphasis">Sarah Goewey</h2>
-          <h5 className="card-subtitle text-body-secondary">
+          <h5 className="card-subtitle text-success-emphasis">
             Software Engineer | New York, NY
           </h5>
           <br />
@@ -87,7 +87,7 @@ const Resume = () => {
         <div className="accordion-item">
           <h6 className="accordion-header">
             <button
-              className={`accordion-button ${
+              className={`accordion-button bg-primary-subtle ${
                 isAccordionOpen("collapseOne") ? "" : "collapsed"
               }`}
               type="button"
@@ -103,7 +103,7 @@ const Resume = () => {
             }`}
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body">
+            <div className="accordion-body bg-secondary text-success">
               <p style={{ textAlign: "left" }}>
                 Full-stack Software Engineer who recently completed Fullstack
                 Academy's Web Development Bootcamp; worked individually and in
@@ -119,7 +119,7 @@ const Resume = () => {
         <div className="accordion-item">
           <h6 className="accordion-header">
             <button
-              className={`accordion-button ${
+              className={`accordion-button bg-primary-subtle ${
                 isAccordionOpen("collapseTwo") ? "" : "collapsed"
               }`}
               type="button"
@@ -135,7 +135,7 @@ const Resume = () => {
             }`}
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body">
+            <div className="accordion-body bg-secondary text-success">
               <div className="row">
                 <div className="col">Javascript</div>
                 <div className="col">Node</div>
@@ -157,7 +157,7 @@ const Resume = () => {
         <div className="accordion-item">
           <h6 className="accordion-header">
             <button
-              className={`accordion-button ${
+              className={`accordion-button bg-primary-subtle ${
                 isAccordionOpen("collapseThree") ? "" : "collapsed"
               }`}
               type="button"
@@ -173,7 +173,10 @@ const Resume = () => {
             }`}
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body" style={{ textAlign: "left" }}>
+            <div
+              className="accordion-body bg-secondary text-success"
+              style={{ textAlign: "left" }}
+            >
               <p>
                 <a href="https://backup-cash-register.onrender.com/">
                   Backup Cash Register
@@ -237,7 +240,7 @@ const Resume = () => {
         <div className="accordion-item">
           <h6 className="accordion-header">
             <button
-              className={`accordion-button ${
+              className={`accordion-button bg-primary-subtle ${
                 isAccordionOpen("collapseFour") ? "" : "collapsed"
               }`}
               type="button"
@@ -253,7 +256,10 @@ const Resume = () => {
             }`}
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body" style={{ textAlign: "left" }}>
+            <div
+              className="accordion-body bg-secondary text-success"
+              style={{ textAlign: "left" }}
+            >
               <p>
                 <span className="text-primary-emphasis">
                   Greenlight Bookstore
@@ -277,7 +283,7 @@ const Resume = () => {
         <div className="accordion-item">
           <h6 className="accordion-header">
             <button
-              className={`accordion-button ${
+              className={`accordion-button bg-primary-subtle ${
                 isAccordionOpen("collapseFive") ? "" : "collapsed"
               }`}
               type="button"
@@ -293,7 +299,10 @@ const Resume = () => {
             }`}
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body" style={{ textAlign: "left" }}>
+            <div
+              className="accordion-body bg-secondary text-success"
+              style={{ textAlign: "left" }}
+            >
               <p className="text-primary-emphasis">
                 Fullstack Academy Web Development Bootcamp
               </p>

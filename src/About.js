@@ -22,7 +22,7 @@ const About = () => {
               }}
             />
             <div
-              className="col"
+              className="col text-success"
               style={{
                 display: "flex",
                 flexDirection: "column",

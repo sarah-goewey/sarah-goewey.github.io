@@ -7,12 +7,15 @@ import { Link, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="container" style={{ paddingTop: "15px" }}>
+    <div
+      className="container bg-secondary"
+      style={{ paddingTop: "15px", paddingBottom: "15px" }}
+    >
       <div className="position-relative">
         <div>
           <div className="dropend">
             <button
-              className="btn btn-outline-light btn-lg dropdown-toggle"
+              className="btn btn-primary btn-lg text-secondary dropdown-toggle"
               type="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
@@ -45,7 +48,7 @@ function App() {
         </div>
 
         <div className="position-absolute top-0 end-0">
-          <h1>sarah goewey</h1>
+          <h1 className="text-success">sarah goewey</h1>
         </div>
       </div>
       <Routes>
