@@ -31,10 +31,10 @@ const About = () => {
             >
               <p>
                 Hi, my name is Sarah (they/them). As a Fullstack Academy
-                graduate with 5+ years of retail experience, including ecommerce
-                fulfillment and receiving, I bring a unique perspective to web
-                development that prioritizes user experience and streamlined
-                functionality.
+                graduate with almost a decade of book industry experience,
+                including ecommerce fulfillment and receiving, I bring a unique
+                perspective to web development that prioritizes user experience
+                and streamlined functionality.
               </p>
               <p>
                 {" "}
