@@ -1,18 +1,17 @@
 import React from "react";
 import sarah_img from "./images/sarah_img.png";
+import LinkTrio from "./LinkTrio";
 
 const About = () => {
   return (
     <div className="container text-center position-relative">
-      <h1 className="position-absolute top-0 end-0 text-primary-emphasis">
-        about
-      </h1>
+      <h1 className="position-absolute top-0 end-0 text-primary">about</h1>
       <div className="row" style={{ paddingTop: "75px" }}>
         <div className="card bg-primary-subtle">
           <div className="row">
             <img
               src={sarah_img}
-              className="img-thumbnail col"
+              className="img-thumbnail col bg-danger-subtle"
               alt="sarah goewey"
               style={{
                 width: "25%",
@@ -24,6 +23,7 @@ const About = () => {
             <div
               className="col text-success"
               style={{
+                padding: "15px",
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
@@ -65,6 +65,7 @@ const About = () => {
                 skills to creating sleek, seamless products that people love to
                 use.
               </p>
+              <LinkTrio />
             </div>
           </div>
         </div>

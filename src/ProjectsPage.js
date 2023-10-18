@@ -7,9 +7,7 @@ import spiffystickies from "./images/spiffystickies.png";
 const ProjectsPage = () => {
   return (
     <div className="container text-center position-relative">
-      <h1 className="position-absolute top-0 end-0 text-primary-emphasis">
-        projects
-      </h1>
+      <h1 className="position-absolute top-0 end-0 text-primary">projects</h1>
       <div style={{ paddingTop: "75px" }}>
         <div className="card bg-primary-subtle" style={{ paddingTop: "15px" }}>
           <div id="carouselExampleIndicators" className="carousel slide">
@@ -19,20 +17,14 @@ const ProjectsPage = () => {
                 <div className="row">
                   <div className="col">
                     <a href="https://backup-cash-register.onrender.com/#/">
-                      <button
-                        type="button"
-                        className="btn btn-primary-emphasis"
-                      >
+                      <button type="button" className="btn ">
                         Deployed Site
                       </button>
                     </a>
                   </div>
                   <div className="col">
                     <a href="https://github.com/sarah-goewey/backup-cash-register-2">
-                      <button
-                        type="button"
-                        className="btn btn-primary-emphasis"
-                      >
+                      <button type="button" className="btn">
                         GitHub
                       </button>
                     </a>
@@ -64,20 +56,14 @@ const ProjectsPage = () => {
                 <div className="row">
                   <div className="col">
                     <a href="https://caves-of-mercury.onrender.com/">
-                      <button
-                        type="button"
-                        className="btn btn-primary-emphasis"
-                      >
+                      <button type="button" className="btn">
                         Deployed Site
                       </button>
                     </a>
                   </div>
                   <div className="col">
                     <a href="https://github.com/sarah-goewey/harmoniums">
-                      <button
-                        type="button"
-                        className="btn btn-primary-emphasis"
-                      >
+                      <button type="button" className="btn">
                         GitHub
                       </button>
                     </a>
@@ -110,20 +96,14 @@ const ProjectsPage = () => {
                 <div className="row">
                   <div className="col">
                     <a href="https://cooking-party.onrender.com/">
-                      <button
-                        type="button"
-                        className="btn btn-primary-emphasis"
-                      >
+                      <button type="button" className="btn">
                         Deployed Site
                       </button>
                     </a>
                   </div>
                   <div className="col">
                     <a href="https://github.com/cookingparty/cooking-party">
-                      <button
-                        type="button"
-                        className="btn btn-primary-emphasis"
-                      >
+                      <button type="button" className="btn">
                         GitHub
                       </button>
                     </a>
@@ -157,20 +137,14 @@ const ProjectsPage = () => {
                 <div className="row">
                   <div className="col">
                     <a href="https://spiffy-stickies.onrender.com/#/">
-                      <button
-                        type="button"
-                        className="btn btn-primary-emphasis"
-                      >
+                      <button type="button" className="btn">
                         Deployed Site
                       </button>
                     </a>
                   </div>
                   <div className="col">
                     <a href="https://github.com/sarah-goewey/stackathon">
-                      <button
-                        type="button"
-                        className="btn btn-primary-emphasis"
-                      >
+                      <button type="button" className="btn">
                         GitHub
                       </button>
                     </a>

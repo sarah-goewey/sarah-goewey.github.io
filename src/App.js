@@ -8,10 +8,15 @@ import { Link, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div
-      className="container bg-secondary"
-      style={{ paddingTop: "15px", paddingBottom: "15px" }}
+      className="bg-secondary-subtle"
+      style={{
+        minWidth: "100%",
+        minHeight: "100vh",
+        paddingTop: "15px",
+        paddingBottom: "15px",
+      }}
     >
-      <div className="position-relative">
+      <div className="container position-relative">
         <div>
           <div className="dropend">
             <button
@@ -22,7 +27,7 @@ function App() {
             >
               menu
             </button>
-            <ul className="dropdown-menu">
+            <ul className="dropdown-menu bg-danger-subtle text-success">
               <li>
                 <Link className="dropdown-item" to="/">
                   about

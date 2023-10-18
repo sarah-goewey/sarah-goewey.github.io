@@ -3,12 +3,10 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="container text-center position-relative">
-      <h1 className="position-absolute top-0 end-0 text-primary-emphasis">
-        contact
-      </h1>
+      <h1 className="position-absolute top-0 end-0 text-primary">contact</h1>
       <div className="row" style={{ paddingTop: "75px" }}>
         <div
-          className="card bg-primary-subtle"
+          className="card bg-danger-subtle"
           style={{ maxWidth: "500px", margin: "auto" }}
         >
           <br />
