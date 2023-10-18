@@ -20,14 +20,14 @@ function App() {
         <div>
           <div className="dropend">
             <button
-              className="btn btn-primary btn-lg text-secondary dropdown-toggle"
+              className="btn btn-secondary btn-lg text-success dropdown-toggle"
               type="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
               menu
             </button>
-            <ul className="dropdown-menu bg-danger-subtle text-success">
+            <ul className="dropdown-menu bg-secondary text-success">
               <li>
                 <Link className="dropdown-item" to="/">
                   about

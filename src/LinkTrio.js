@@ -3,7 +3,7 @@ import React from "react";
 const LinkTrio = () => {
   return (
     <div
-      className="row bg-danger-subtle"
+      className="row bg-secondary-subtle"
       style={{
         maxWidth: "300px",
         margin: "auto",

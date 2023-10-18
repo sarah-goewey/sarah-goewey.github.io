@@ -11,13 +11,13 @@ const About = () => {
           <div className="row">
             <img
               src={sarah_img}
-              className="img-thumbnail col bg-danger-subtle"
+              className="img-thumbnail col bg-success"
               alt="sarah goewey"
               style={{
                 width: "25%",
                 minWidth: "500px",
                 objectFit: "contain",
-                padding: "25px",
+                padding: "15px",
               }}
             />
             <div
