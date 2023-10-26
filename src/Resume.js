@@ -149,7 +149,7 @@ const Resume = () => {
                 </p>
                 <br />
                 <p>
-                  <a href="https://cooking-party.onrender.com/">
+                  <a href="https://github.com/cookingparty/cooking-party">
                     Cooking Party
                   </a>{" "}
                   | Co-developer | June 2023{" "}

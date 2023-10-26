@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.24002030.css",
-    "main.js": "/static/js/main.e5d8336b.js",
+    "main.css": "/static/css/main.89b7b48c.css",
+    "main.js": "/static/js/main.8ba27f41.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/sarah_img.png": "/static/media/sarah_img.e0ddb27496ac6b4cd736.png",
     "static/media/cookingparty.png": "/static/media/cookingparty.ddb1efa165c023b8c0f1.png",
@@ -9,12 +9,12 @@
     "static/media/spiffystickies.png": "/static/media/spiffystickies.e1a35a42c7acd2339304.png",
     "static/media/bcr.png": "/static/media/bcr.c1877154dcfb0ed541c2.png",
     "index.html": "/index.html",
-    "main.24002030.css.map": "/static/css/main.24002030.css.map",
-    "main.e5d8336b.js.map": "/static/js/main.e5d8336b.js.map",
+    "main.89b7b48c.css.map": "/static/css/main.89b7b48c.css.map",
+    "main.8ba27f41.js.map": "/static/js/main.8ba27f41.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24002030.css",
-    "static/js/main.e5d8336b.js"
+    "static/css/main.89b7b48c.css",
+    "static/js/main.8ba27f41.js"
   ]
 }

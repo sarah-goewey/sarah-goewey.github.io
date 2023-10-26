@@ -55,15 +55,13 @@ const ProjectsPage = () => {
                 <div className="carousel-item">
                   <Project
                     title="Cooking Party"
-                    renderLink="https://cooking-party.onrender.com/"
                     githubLink="https://github.com/cookingparty/cooking-party"
                     image={cookingparty}
                     summary="Built in collaboration with Rebecca Cherry, Angel Gao and
                       Nicholas Race as our Fullstack Academy capstone project,
                       Cooking Party is a feature-rich social cooking app. It is
-                      a platform where food enthusiasts, home cooks, and
-                      aspiring chefs can come together to explore recipes, share
-                      their own culinary triumphs, and connect with like-minded
+                      a platform where food enthusiasts can come together to explore recipes, share
+                      their culinary triumphs, and connect with like-minded
                       individuals from around the world. Users can browse,
                       search and favorite recipes, organize their week with our
                       meal planner, send, accept and reject friend requests,
