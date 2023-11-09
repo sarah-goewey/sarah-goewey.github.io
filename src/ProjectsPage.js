@@ -45,7 +45,7 @@ const ProjectsPage = () => {
                       Vonnegut's Sirens of Titan. In Sirens, the caves of
                       Mercury are inhabited by a primitive species called
                       Harmoniums who can only communicate two thoughts: 'I am
-                      here' and 'So glad you are'. And isn't this all actually
+                      here' and 'So glad you are'. And isn't this all we actually
                       want from social media: to announce our presence, and to
                       be acknowledged? Caves of Mercury uses this contraint to
                       offer users a zen experience of pure, uncomplicated
