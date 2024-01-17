@@ -62,7 +62,7 @@ const Resume = () => {
                   Professional background in customer service and inventory
                   management roles enables a unique perspective in designing
                   user-friendly and efficient applications. Seeking to leverage
-                  skills to create user-centric digital products.
+                  skills to create and maintain user-centric digital products.
                 </p>
               </div>
             </div>
@@ -87,20 +87,14 @@ const Resume = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body bg-secondary-subtle text-success">
-                <div className="row">
-                  <div className="col">Javascript</div>
-                  <div className="col">Node</div>
-                  <div className="col">React/Redux</div>
+                <div style={{ textAlign: "left" }}>
+                  <span className="text-primary">Proficient:</span> Javascript,
+                  PostgreSQL, Express, React, Node, Redux, HTML5, CSS3, Git,
+                  GitHub, Chrome DevTools
                 </div>
-                <div className="row">
-                  <div className="col">Express</div>
-                  <div className="col">HTML5</div>
-                  <div className="col">CSS</div>
-                </div>
-                <div className="row">
-                  <div className="col">PostgreSQL</div>
-                  <div className="col">Git</div>
-                  <div className="col">WebSockets</div>
+                <div style={{ textAlign: "left" }}>
+                  <span className="text-primary">Familiar:</span> Typescript,
+                  Java
                 </div>
               </div>
             </div>
@@ -129,6 +123,26 @@ const Resume = () => {
                 style={{ textAlign: "left" }}
               >
                 <p>
+                  <a href="https://meal-planner-3kt4.onrender.com/">
+                    Meal Planner
+                  </a>{" "}
+                  | Co-developer | January 2024{" "}
+                </p>
+                <p>
+                  • Working with another developer to build a fully functional
+                  recipe and meal planner app
+                </p>
+                <p>
+                  • Building full-stack functionality to allow users to search
+                  for recipes, add them to a personal meal planner, and add the
+                  ingredients to a customized shopping list
+                </p>
+                <p>
+                  • Using Javascript, React, Redux, Node, Express, PostgreSQL,
+                  Bootstrap, Spoonacular API, and deploying with Render
+                </p>
+                <br />
+                <p>
                   <a href="https://backup-cash-register.onrender.com/">
                     Backup Cash Register
                   </a>{" "}
@@ -146,27 +160,6 @@ const Resume = () => {
                 <p>
                   • Utilized a PostgreSQL database to enable users to persist
                   and refer to their transaction history
-                </p>
-                <br />
-                <p>
-                  <a href="https://github.com/cookingparty/cooking-party">
-                    Cooking Party
-                  </a>{" "}
-                  | Co-developer | June 2023{" "}
-                </p>
-                <p>
-                  • Worked with three other developers to build a fully
-                  functional social cooking app
-                </p>
-                <p>
-                  • Built full-stack functionality to allow users to send,
-                  accept and reject friend requests, to make and join groups,
-                  and to chat with other online users
-                </p>
-                <p>
-                  • Used Javascript, React, Redux, Node.js, Express, PostgreSQL,
-                  WebSockets, Material UI, two third-party recipe APIs, and
-                  deployed using Render
                 </p>
                 <br />
                 <p>
@@ -215,10 +208,8 @@ const Resume = () => {
                 style={{ textAlign: "left" }}
               >
                 <p>
-                  <span className="text-primary-emphasis">
-                    Greenlight Bookstore
-                  </span>{" "}
-                  | Ecommerce Bookseller/Receiver/Shiftleader | Brooklyn, NY
+                  <span className="text-primary">Greenlight Bookstore</span> |
+                  Ecommerce Bookseller/Receiver/Shiftleader | Brooklyn, NY
                 </p>
                 <p>July 2018 - June 2022</p>
                 <p>
@@ -257,15 +248,13 @@ const Resume = () => {
                 className="accordion-body bg-secondary-subtle text-success"
                 style={{ textAlign: "left" }}
               >
-                <p className="text-primary-emphasis">
+                <p className="text-primary">
                   Fullstack Academy Web Development Bootcamp
                 </p>
                 <p>December 2022-June 2023</p>
                 <p>Software Engineering Certificate</p>
                 <br />
-                <p className="text-primary-emphasis">
-                  Northern Arizona University
-                </p>
+                <p className="text-primary">Northern Arizona University</p>
                 <p>August 2009-May 2013</p>
                 <p>Bachelor of Arts in Theatre Performance</p>
                 <p>Graduated Summa Cum Laude with cumulative 4.0 GPA</p>

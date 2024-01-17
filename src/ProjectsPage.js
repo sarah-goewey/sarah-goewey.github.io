@@ -3,6 +3,7 @@ import cavesofmercury from "./images/cavesofmercury.png";
 import cookingparty from "./images/cookingparty.png";
 import bcr from "./images/bcr.png";
 import spiffystickies from "./images/spiffystickies.png";
+import mealplanner from "./images/mealplanner.png";
 import Project from "./Project";
 
 const ProjectsPage = () => {
@@ -18,6 +19,15 @@ const ProjectsPage = () => {
             <div id="carouselExampleIndicators" className="carousel slide">
               <div className="carousel-inner">
                 <div className="carousel-item active">
+                  <Project
+                    title="Meal Planner"
+                    renderLink="https://meal-planner-3kt4.onrender.com/#/"
+                    githubLink="https://github.com/YYGAO1/meal-planner"
+                    image={mealplanner}
+                    summary="Conceived and built in collaboration with Angel Gao, Meal Planner was intended to revisit, reinforce and expand on what we learned during our bootcamp capstone project, Cooking Party. Meal Planner is intended to make weekly meal planning seamless and sleek. Users can search for recipes via the Spoonacular database, add them to their personal meal planner and leave reviews after trying them out. The user can also add ingredients from recipes to a customizable grocery list."
+                  />
+                </div>
+                <div className="carousel-item">
                   <Project
                     title="Backup Cash Register"
                     renderLink="https://backup-cash-register.onrender.com/#/"
