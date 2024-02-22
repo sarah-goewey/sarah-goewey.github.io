@@ -123,10 +123,8 @@ const Resume = () => {
                 style={{ textAlign: "left" }}
               >
                 <p>
-                  <a href="https://meal-planner-3kt4.onrender.com/">
-                    Meal Planner
-                  </a>{" "}
-                  | Co-developer | January 2024{" "}
+                  <a href="https://eat-easy.onrender.com">EatEasy</a> |
+                  Co-developer | February 2024{" "}
                 </p>
                 <p>
                   • Working with another developer to build a fully functional

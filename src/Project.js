@@ -41,7 +41,7 @@ const Project = ({ title, renderLink, githubLink, image, summary }) => {
         src={image}
         className="img-thumbnail d-block w-75 mx-auto bg-success"
         alt="backup cash register"
-        style={{ maxWidth: "45%", maxHeight: "45%" }}
+        style={{ maxWidth: "35%" }}
       />
       <br />
       <div
